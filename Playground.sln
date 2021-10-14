@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground", "Playground\Playground.csproj", "{AB6AA392-B769-4D45-ADD8-A2E0CE205F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlPlayground", "XmlPlayground\XmlPlayground.csproj", "{476C9C92-C9E6-44A2-8032-51B42FFCDB0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlPlayground", "XmlPlayground\XmlPlayground.csproj", "{476C9C92-C9E6-44A2-8032-51B42FFCDB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{35F30096-614E-4A31-A749-DCF639A141DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafischeApplicaties", "GrafischeApplicaties\GrafischeApplicaties.csproj", "{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{476C9C92-C9E6-44A2-8032-51B42FFCDB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{476C9C92-C9E6-44A2-8032-51B42FFCDB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{476C9C92-C9E6-44A2-8032-51B42FFCDB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F30096-614E-4A31-A749-DCF639A141DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F30096-614E-4A31-A749-DCF639A141DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F30096-614E-4A31-A749-DCF639A141DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F30096-614E-4A31-A749-DCF639A141DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
