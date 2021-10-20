@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground", "Playground\Pl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlPlayground", "XmlPlayground\XmlPlayground.csproj", "{476C9C92-C9E6-44A2-8032-51B42FFCDB0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{35F30096-614E-4A31-A749-DCF639A141DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{35F30096-614E-4A31-A749-DCF639A141DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrafischeApplicaties", "GrafischeApplicaties\GrafischeApplicaties.csproj", "{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrafischeApplicaties", "GrafischeApplicaties\GrafischeApplicaties.csproj", "{D3576DBB-08B0-45C2-A16E-5342CCAEAEBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventCode", "EventCode\EventCode.csproj", "{9FA2CBE0-1F94-424A-ADD3-73336C50A17D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventCode", "EventCode\EventCode.csproj", "{9FA2CBE0-1F94-424A-ADD3-73336C50A17D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqPlayground", "LinqPlayground\LinqPlayground.csproj", "{EDC9C9D2-1435-4AAE-ADD5-76B2E7C2DF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabasePlayground", "DatabasePlayground\DatabasePlayground.csproj", "{D3550653-9FAA-4299-B7B4-0BC3130AD9C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{9FA2CBE0-1F94-424A-ADD3-73336C50A17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA2CBE0-1F94-424A-ADD3-73336C50A17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA2CBE0-1F94-424A-ADD3-73336C50A17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC9C9D2-1435-4AAE-ADD5-76B2E7C2DF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC9C9D2-1435-4AAE-ADD5-76B2E7C2DF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC9C9D2-1435-4AAE-ADD5-76B2E7C2DF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC9C9D2-1435-4AAE-ADD5-76B2E7C2DF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3550653-9FAA-4299-B7B4-0BC3130AD9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3550653-9FAA-4299-B7B4-0BC3130AD9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3550653-9FAA-4299-B7B4-0BC3130AD9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3550653-9FAA-4299-B7B4-0BC3130AD9C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

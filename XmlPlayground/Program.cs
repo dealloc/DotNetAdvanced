@@ -1,14 +1,15 @@
-﻿using System.Xml.Serialization;
-using XmlPlayground;
+﻿using System.Xml.Linq;
 
-var serializer = new XmlSerializer(typeof(PurchaseOrder));
-var stream = new FileStream("purchaseorder.xml", FileMode.Open, FileAccess.Read);
+XElement purcharseorder = XElement.Load("purchaseorder.xml");
 
-PurchaseOrder? purchaseorder = (PurchaseOrder?)serializer.Deserialize(stream);
+var items = purcharseorder
+    .Element("Items")
+    ?.Elements("Item")
+    ?.Where(item => item.Attribute("PartNumber")?.Value?.Contains('B') ?? false)
+    ?.ToList()
+    ?? new List<XElement>();
 
-purchaseorder.PurchaseOrderNumber = "99504";
+foreach (var item in items)
+{
 
-var outputstream = new FileStream("result.xml", FileMode.CreateNew, FileAccess.Write);
-serializer.Serialize(outputstream, purchaseorder);
-
-return;
+}

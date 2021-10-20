@@ -7,6 +7,9 @@ namespace XmlPlayground
     {
         [XmlAttribute("PurchaseOrderNumber")]
         public string PurchaseOrderNumber { get; set; }
+        [XmlAttribute("OrderDate")]
+        public string OrderDate { get; set; }
+
         [XmlElement("Address")]
         public Address Address { get; set; }
         [XmlArray("Items"), XmlArrayItem("Item")]
