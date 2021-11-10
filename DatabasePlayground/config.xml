@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Configuration>
-	<ConnectionString>Data Source=(local);Initial Catalog=SomeOtherDatabase;Integrated Security=True</ConnectionString>
+	<ConnectionString>Data Source=(local);Initial Catalog=Students;Integrated Security=True</ConnectionString>
 </Configuration>
