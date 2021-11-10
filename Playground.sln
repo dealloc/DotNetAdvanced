@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqPlayground", "LinqPlayg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabasePlayground", "DatabasePlayground\DatabasePlayground.csproj", "{D3550653-9FAA-4299-B7B4-0BC3130AD9C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaPlayground", "LambdaPlayground\LambdaPlayground.csproj", "{CC2EC4EB-2C04-498C-AB8C-CCB11A5A4747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaPlayground", "LambdaPlayground\LambdaPlayground.csproj", "{CC2EC4EB-2C04-498C-AB8C-CCB11A5A4747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsPlayground", "GenericsPlayground\GenericsPlayground.csproj", "{CEC9CB2F-B947-4075-929C-B31DF25E2D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsPlayground", "GenericsPlayground\GenericsPlayground.csproj", "{CEC9CB2F-B947-4075-929C-B31DF25E2D64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesPlayground", "TuplesPlayground\TuplesPlayground.csproj", "{C86061BC-2CFE-4559-BC7A-BB4E86E1C288}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuplesPlayground", "TuplesPlayground\TuplesPlayground.csproj", "{C86061BC-2CFE-4559-BC7A-BB4E86E1C288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlaygroundGUI", "PlaygroundGUI\PlaygroundGUI.csproj", "{C4A263AD-38A8-4E54-9936-F085FB3B60E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C86061BC-2CFE-4559-BC7A-BB4E86E1C288}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C86061BC-2CFE-4559-BC7A-BB4E86E1C288}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C86061BC-2CFE-4559-BC7A-BB4E86E1C288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A263AD-38A8-4E54-9936-F085FB3B60E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A263AD-38A8-4E54-9936-F085FB3B60E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A263AD-38A8-4E54-9936-F085FB3B60E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A263AD-38A8-4E54-9936-F085FB3B60E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
